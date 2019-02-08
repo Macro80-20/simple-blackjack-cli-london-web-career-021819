@@ -55,17 +55,14 @@ end
 
 def runner
 welcome
-  display_card_total(initial_round)
-first_cards = hit?(initial_round)
-while first_cards <21
-    hit?(initial_round)
-
-  end #
+  #display_card_total(initial_round)
+#first_cards = hit?(initial_round)
+first_cards = initial_round #we register there first round of cards
+while first_cards <21 #while it is less than 21
+    first_cards = hit?(first_cards)  # there hand will convert to a new number if they clicked hit witin the method and return it up until they said miss
+    first_cards = display_card_total(first_cards)  #we display the number they got . 
+end 
+end_game(first_cards)
 end
 
-def plus_two(num)
-  num + 2
-    num
 
-   end
-binding.pry
