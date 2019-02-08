@@ -61,9 +61,10 @@ welcome
   display_card_total(initial_round)
 
 first_cards = hit?(initial_round)
-binding.pry
+
 while first_cards <21
     hit?(initial_round)
+    binding.pry
   end #
 end_game
 end
