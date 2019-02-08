@@ -63,7 +63,8 @@ while first_cards <21
   end #
 end
 
-def plus_two(num) num + 2
+def plus_two(num) 
+  num + 2
     num
   binding.pry
    end
