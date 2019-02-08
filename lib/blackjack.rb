@@ -56,11 +56,14 @@ end
 def runner
 welcome
   display_card_total(initial_round)
-
 first_cards = hit?(initial_round)
 while first_cards <21
     hit?(initial_round)
-    binding.pry
+  
   end #
-end_game
 end
+
+def plus_two(num) num + 2
+    num 
+  binding.pry
+   end
