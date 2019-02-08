@@ -59,11 +59,11 @@ welcome
 first_cards = hit?(initial_round)
 while first_cards <21
     hit?(initial_round)
-  
+
   end #
 end
 
 def plus_two(num) num + 2
-    num 
+    num
   binding.pry
    end
