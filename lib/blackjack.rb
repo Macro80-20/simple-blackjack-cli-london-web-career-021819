@@ -67,4 +67,3 @@ while first_cards <21
   end #
 end_game
 end
-
