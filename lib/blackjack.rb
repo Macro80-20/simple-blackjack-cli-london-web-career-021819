@@ -30,7 +30,7 @@ end
 def initial_round
 counter = 0
 2.times do
-  deal_card
+  
   counter+=deal_card
 end
 display_card_total(counter)
@@ -57,8 +57,10 @@ end
 #####################################################
 
 def runner
-  welcome
-  initial_round
+  # how we gonna play this game. 
+  #welcome starts it 
+  #intial_round 
+  welcome 
 
 
   # code runner here
