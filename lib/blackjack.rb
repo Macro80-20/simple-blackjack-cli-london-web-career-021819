@@ -66,5 +66,5 @@ while first_cards <21
     hit?(initial_round)
   end #
 end_game
-
 end
+runner
