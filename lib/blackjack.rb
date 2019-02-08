@@ -55,7 +55,6 @@ end
 
 def runner
   welcome
-initial_round
 card_total = initial_round
 display_card_total(card_total)
 while card_total < 21
