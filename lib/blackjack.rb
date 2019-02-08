@@ -65,3 +65,4 @@ while first_cards <21
 end_game
 binding.pry
 end
+runner
